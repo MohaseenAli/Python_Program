@@ -1,0 +1,43 @@
+print('\n Hello world')
+#Comment
+x=None
+x
+x==0
+x==False
+x==None
+y=34
+print(y)
+a=-56
+print(a)
+c=16e4
+print(c)
+b=-7-8j
+print(b)
+p="python"
+print(p)
+p="""python"""
+print(p)
+p='''python'''
+print(p)
+p='python'
+print(p)
+elements=[10,20,30,40,50]
+print(elements)
+x=bytes(elements)
+print(x)
+for i in x:
+    print (i)
+x=[12.33,12,2,'fce']#list
+print(x)
+x=(12.33,12,2,'fce')#tuple
+print(x)
+print(range(0,10,1))#range(10)
+s=list(range(0,10,2))
+print(s)
+print(range(0,10,2))
+s={12,4,5,5,4,5,45,4,2,5,5,5,5,}
+print(s)
+fs=frozenset(s)
+print(fs)
+my_dict={1:"A",2:"b"}
+print(my_dict)
